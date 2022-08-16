@@ -19,12 +19,19 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="59K-nB-FSg">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3Oy-dm-k98">
+                                <rect key="frame" x="120" y="379.5" width="174.5" height="147.5"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="100" scale="large" weight="medium"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="3Oy-dm-k98" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="0hg-Uz-Kjm"/>
                             <constraint firstItem="59K-nB-FSg" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="6n8-Gl-XtQ"/>
                             <constraint firstAttribute="bottom" secondItem="59K-nB-FSg" secondAttribute="bottom" id="7fS-k4-xVe"/>
+                            <constraint firstItem="3Oy-dm-k98" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="H47-u0-FgS"/>
                             <constraint firstItem="59K-nB-FSg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="hZq-7X-yQy"/>
                             <constraint firstItem="59K-nB-FSg" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="taP-VC-Wuz"/>
                         </constraints>
@@ -37,6 +44,7 @@
     </scenes>
     <resources>
         <image name="Launch" width="375" height="812"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

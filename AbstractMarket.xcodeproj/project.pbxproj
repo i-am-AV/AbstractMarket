@@ -10,12 +10,19 @@
 		FD22C4B828A27CB600646973 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22C4B728A27CB600646973 /* CoreDataStack.swift */; };
 		FD22C4C028A29F9000646973 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22C4BF28A29F9000646973 /* TabBarController.swift */; };
 		FD22C4C528A2A1E700646973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22C4C428A2A1E700646973 /* LaunchScreen.storyboard */; };
+		FD22C4C728A3135300646973 /* LaunchAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22C4C628A3135200646973 /* LaunchAnimationViewController.swift */; };
+		FD22C4CA28A3DC1200646973 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22C4C928A3DC1200646973 /* UIViewExtension.swift */; };
 		FD2D4E0828A17C8A00647F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2D4E0728A17C8A00647F1F /* AppDelegate.swift */; };
 		FD2D4E1228A17C8B00647F1F /* AbstractMarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD2D4E1028A17C8B00647F1F /* AbstractMarket.xcdatamodeld */; };
 		FD2D4E1428A17C8C00647F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2D4E1328A17C8C00647F1F /* Assets.xcassets */; };
 		FD2D4E2228A17C8C00647F1F /* AbstractMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2D4E2128A17C8C00647F1F /* AbstractMarketTests.swift */; };
 		FD2D4E2C28A17C8C00647F1F /* AbstractMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2D4E2B28A17C8C00647F1F /* AbstractMarketUITests.swift */; };
 		FD2D4E2E28A17C8C00647F1F /* AbstractMarketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2D4E2D28A17C8C00647F1F /* AbstractMarketUITestsLaunchTests.swift */; };
+		FDDD256A28AA8A0C0063F483 /* LaunchAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD256928AA8A0C0063F483 /* LaunchAnimationView.swift */; };
+		FDDD256C28AAD0460063F483 /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD256B28AAD0460063F483 /* CGColorExtension.swift */; };
+		FDDFFA4828ABB48E00959E11 /* LaunchAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFFA4728ABB48E00959E11 /* LaunchAnimationViewModel.swift */; };
+		FDDFFA4A28ABD60100959E11 /* LaunchAnimationDescriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFFA4928ABD60100959E11 /* LaunchAnimationDescriptions.swift */; };
+		FDDFFA4C28ABD69500959E11 /* LaunchAnimationStateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFFA4B28ABD69500959E11 /* LaunchAnimationStateGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,8 @@
 		FD22C4B728A27CB600646973 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		FD22C4BF28A29F9000646973 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FD22C4C428A2A1E700646973 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD22C4C628A3135200646973 /* LaunchAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationViewController.swift; sourceTree = "<group>"; };
+		FD22C4C928A3DC1200646973 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		FD2D4E0428A17C8A00647F1F /* AbstractMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2D4E0728A17C8A00647F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD2D4E1128A17C8B00647F1F /* AbstractMarket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AbstractMarket.xcdatamodel; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		FD2D4E2728A17C8C00647F1F /* AbstractMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2D4E2B28A17C8C00647F1F /* AbstractMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractMarketUITests.swift; sourceTree = "<group>"; };
 		FD2D4E2D28A17C8C00647F1F /* AbstractMarketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractMarketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDDD256928AA8A0C0063F483 /* LaunchAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationView.swift; sourceTree = "<group>"; };
+		FDDD256B28AAD0460063F483 /* CGColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
+		FDDFFA4728ABB48E00959E11 /* LaunchAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationViewModel.swift; sourceTree = "<group>"; };
+		FDDFFA4928ABD60100959E11 /* LaunchAnimationDescriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationDescriptions.swift; sourceTree = "<group>"; };
+		FDDFFA4B28ABD69500959E11 /* LaunchAnimationStateGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationStateGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,7 @@
 				FD22C4BD28A29E8200646973 /* Cart */,
 				FD22C4BE28A29EA900646973 /* Profile */,
 				FD22C4BF28A29F9000646973 /* TabBarController.swift */,
+				FDDD256828AA89E30063F483 /* LaunchAnimation */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -151,6 +166,15 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		FD22C4C828A3D8AA00646973 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD22C4C928A3DC1200646973 /* UIViewExtension.swift */,
+				FDDD256B28AAD0460063F483 /* CGColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FD2D4DFB28A17C8A00647F1F = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +202,7 @@
 				FD22C4C228A2A12D00646973 /* Sources */,
 				FD22C4C128A2A0EE00646973 /* CoreData */,
 				FD22C4C328A2A13F00646973 /* Utility */,
+				FD22C4C828A3D8AA00646973 /* Extensions */,
 			);
 			path = AbstractMarket;
 			sourceTree = "<group>";
@@ -197,6 +222,18 @@
 				FD2D4E2D28A17C8C00647F1F /* AbstractMarketUITestsLaunchTests.swift */,
 			);
 			path = AbstractMarketUITests;
+			sourceTree = "<group>";
+		};
+		FDDD256828AA89E30063F483 /* LaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD256928AA8A0C0063F483 /* LaunchAnimationView.swift */,
+				FD22C4C628A3135200646973 /* LaunchAnimationViewController.swift */,
+				FDDFFA4728ABB48E00959E11 /* LaunchAnimationViewModel.swift */,
+				FDDFFA4B28ABD69500959E11 /* LaunchAnimationStateGenerator.swift */,
+				FDDFFA4928ABD60100959E11 /* LaunchAnimationDescriptions.swift */,
+			);
+			path = LaunchAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,10 +387,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD22C4CA28A3DC1200646973 /* UIViewExtension.swift in Sources */,
+				FDDFFA4C28ABD69500959E11 /* LaunchAnimationStateGenerator.swift in Sources */,
+				FDDD256A28AA8A0C0063F483 /* LaunchAnimationView.swift in Sources */,
 				FD22C4C028A29F9000646973 /* TabBarController.swift in Sources */,
 				FD22C4B828A27CB600646973 /* CoreDataStack.swift in Sources */,
 				FD2D4E0828A17C8A00647F1F /* AppDelegate.swift in Sources */,
+				FD22C4C728A3135300646973 /* LaunchAnimationViewController.swift in Sources */,
 				FD2D4E1228A17C8B00647F1F /* AbstractMarket.xcdatamodeld in Sources */,
+				FDDFFA4828ABB48E00959E11 /* LaunchAnimationViewModel.swift in Sources */,
+				FDDFFA4A28ABD60100959E11 /* LaunchAnimationDescriptions.swift in Sources */,
+				FDDD256C28AAD0460063F483 /* CGColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
